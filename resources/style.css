@@ -1,6 +1,8 @@
-body {
+/*General styles*/
 
+body {
     background-color: #192427;
+    margin: 0;
 }
 
 h1,
@@ -9,6 +11,8 @@ h3,
 p {
     color: white;
 }
+
+/*Header styles*/
 
 header.header-container {
     display: flex;
@@ -46,6 +50,8 @@ header nav a:hover {
     text-decoration: underline;
 }
 
+/*Hero banner styles*/
+
 .hero-banner {
     display: flex;
     width: 100%;
@@ -78,10 +84,14 @@ header nav a:hover {
     cursor: pointer;
 }
 
+/*Adds space between sections*/
+
 .divider {
     margin-top: 20rem;
     margin-bottom: 20rem;
 }
+
+/*Styles for the introduction*/
 
 .intro-container {
     margin: auto;
@@ -105,6 +115,8 @@ header nav a:hover {
     color: white;
 }
 
+/*Styles for the first banner*/
+
 .banner {
     background-color: #767673;
     height: 15rem;
@@ -123,8 +135,9 @@ header nav a:hover {
     max-width: 80%;
 }
 
-.events h3 {
+.events h2 {
     font-family: 'futura', sans-serif;
+    font-size: 4rem;
 }
 
 .events li {
@@ -144,4 +157,97 @@ header nav a:hover {
     border: none;
     max-width: 10rem;
     cursor: pointer;
+}
+
+/* Reviews section */
+
+.banner2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner2 img {
+    height: 15rem;
+    width: 100%;
+}
+
+.banner2-title {
+    position: absolute;
+    font-family: 'futura', sans-serif;
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+/* Reviews */
+
+.reviews {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.reviews p {
+    font-family: 'comorant garamond', serif;
+    font-size: 1.5rem;
+}
+
+/* Join us today */
+
+.banner4 {
+    background-color: #C2B2AD;
+    color: white;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#banner4-title {
+    font-family: 'futura', sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.banner4-text {
+    font-family: 'comorant garamond', serif;
+    width: 80%;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.banner4 button {
+    font-size: 1rem;
+    font-family: 'futura', sans-serif;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #D9D9D9;
+    border: none;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+/* Footer */
+footer {
+    color: white;
+    margin: 20rem auto;
+    max-width: 80%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer h3 {
+    font-family: 'futura', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+footer p {
+    font-family: 'comorant garamond', serif;
+    font-size: 1rem;
+    margin: 0;
 }
