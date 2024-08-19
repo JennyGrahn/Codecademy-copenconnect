@@ -64,7 +64,6 @@ header nav a:hover {
 }
 
 .herotext {
-    /*font-family: 'Futura', sans-serif;*/
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -306,7 +305,7 @@ footer p {
     }
 
     .herotext p {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 
     /* Introtext styles */
@@ -350,10 +349,232 @@ footer p {
 
 /* Small devices (768px or less) */
 @media only screen and (max-width: 768px) {
-    ...
+
+    /*General styles*/
+
+    body {
+        margin: 0;
+    }
+
+    .divider {
+        margin: 10rem auto;
+    }
+
+    /*Header styles*/
+
+    header.header-container {
+        padding: 0.5rem;
+    }
+
+    #logo {
+        font-size: 1.5rem;
+    }
+
+    /* Navigational styles */
+
+    header nav {
+        gap: 0.5rem;
+    }
+
+    .hero-banner {
+        height: 70rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .herotext h2 {
+        font-size: 2.5rem;
+    }
+
+    .herotext p {
+        font-size: 1.5rem;
+    }
+
+    /* Introtext styles */
+
+    .intro-container {
+        max-width: 90%;
+    }
+
+    .intro-container h2 {
+        font-size: 3rem;
+    }
+
+    .intro-container p {
+        font-size: 2rem;
+    }
+
+    /* Banner styles */
+
+    .banner,
+    .banner2,
+    .banner4 {
+        padding: 2rem 1rem;
+    }
+
+    .banner p {
+        font-size: 1.5rem;
+    }
+
+    /* Events */
+
+    .events h2 {
+        font-size: 3rem;
+    }
+
+    /* Review styles*/
+    .reviews p {
+        font-size: 1.25rem;
+    }
+
+    /* Footer styles */
+    footer {
+        margin: 15rem auto;
+    }
 }
 
 /* Extra small devices (425px or less) */
 @media only screen and (max-width: 425px) {
-    ...
+    /*General styles*/
+
+    body {
+        margin: 0;
+    }
+
+    .divider {
+        margin: 5rem auto;
+    }
+
+    /*Header styles*/
+
+    header.header-container {
+        padding: 0.5rem;
+    }
+
+    #logo {
+        font-size: 1.5rem;
+    }
+
+    /* Navigational styles */
+
+    header nav {
+        gap: 0.5rem;
+    }
+
+    .hero-banner {
+        height: 50rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .herotext h2 {
+        font-size: 1.5rem;
+    }
+
+    .herotext p {
+        font-size: 1rem;
+    }
+
+
+    .hero-banner button {
+        font-size: 1rem;
+    }
+
+    /* Introtext styles */
+
+    .intro-container {
+        max-width: 90%;
+    }
+
+    .intro-container h2 {
+        font-size: 2rem;
+    }
+
+    .intro-container p {
+        font-size: 1.5rem;
+    }
+
+    /* Banner styles */
+
+    .banner,
+    .banner2,
+    .banner4 {
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-text {
+        padding-bottom: 1rem;
+    }
+
+    .banner p {
+        font-size: 1rem;
+    }
+
+
+    .banner-text {
+        padding-bottom: 1rem;
+    }
+
+    .banner p {
+        font-size: 1rem;
+    }
+
+
+    /* Events */
+
+    .events h2 {
+        font-size: 2rem;
+    }
+
+    .events li {
+        font-size: 1rem;
+        font-family: 'cormorant garamond', serif;
+    }
+
+
+    /* Review styles*/
+    .banner2 img {
+        height: 15rem;
+    }
+
+    .banner2 h3 {
+        font-size: 2rem;
+    }
+
+    .reviews p {
+        font-size: 1rem;
+
+    }
+
+    .banner4 h3 {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    .banner4 p {
+        display: none;
+    }
+
+    .banner4 button {
+        display: none;
+    }
+
+    /* Footer styles */
+    footer {
+        margin: 5rem auto;
+    }
 }
